@@ -118,23 +118,19 @@ body {
 .section-header {
   text-align: var(--section-header-align);
 }
-
-a[href]:not([href=""]) {
-  /* Target only anchor elements containing a hyperlink */
+a:link {
+  color: var(--text-color);
   text-decoration: none;
 }
 
-a[href]:not([href=""]):visited {
-  /* Target visited state */
+a:visited {
   font-style: italic;
 }
 
-a[href]:not([href=""]):hover {
-  /* Target hover state */
+a:hover {
   text-decoration: underline;
 }
 
-a[href]:not([href=""]):active {
-  /* Target active state */
+a:active {
   background-color: var(--color-light-grey);
 }
