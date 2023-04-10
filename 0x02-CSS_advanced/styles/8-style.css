@@ -98,5 +98,4 @@ h1, h2, h3, h4, h5, h6 {
 }
 body {
   line-height: var(--line-height-base);
-  min-height: calc(var(--line-height-base) * var(--font-size-medium));
 }
